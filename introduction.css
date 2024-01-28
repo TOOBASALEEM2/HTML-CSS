@@ -1,0 +1,30 @@
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in HTML or XML. CSS defines how elements are displayed on a webpage, including their layout, colors, fonts, spacing, and other visual aspects. The primary purpose of CSS is to separate the structure and content of a document (handled by HTML) from its presentation, allowing for more flexible and consistent styling across multiple pages.
+
+Key concepts in CSS include:
+
+Selectors: Selectors are patterns used to select and style HTML elements. They can be based on element names, classes, IDs, attributes, or other criteria. For example, selecting all paragraphs (<p> elements) can be done using the selector p.
+
+css
+Copy code
+p {
+    color: blue;
+    font-size: 16px;
+}
+Properties: Properties define the visual characteristics of selected elements. Examples of properties include color, font-size, margin, padding, background-color, etc. In the example above, color and font-size are properties.
+
+Values: Values are assigned to properties and determine how the selected elements should be styled. In the example above, blue and 16px are values assigned to the color and font-size properties, respectively.
+
+Selectors and Declarations: CSS rules are formed by combining selectors and declarations. A declaration block is enclosed in curly braces {} and contains one or more declarations separated by semicolons.
+
+css
+Copy code
+selector {
+    property1: value1;
+    property2: value2;
+    /* ... */
+}
+Box Model: The box model is a fundamental concept in CSS that describes how elements are rendered on a webpage. It consists of the content area, padding, border, and margin.
+
+Cascade: The term "cascading" in CSS refers to the order of priority in applying styles. Styles can be inherited, overridden, or combined based on factors such as specificity, importance, and source order.
+
+CSS is an essential part of web development, allowing developers to create visually appealing and responsive web pages. It works in conjunction with HTML and often JavaScript to create dynamic and interactive user interfaces. CSS3 is the latest version of the CSS standard, introducing new features and capabilities for modern web design.
